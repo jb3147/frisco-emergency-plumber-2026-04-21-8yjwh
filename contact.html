@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact Us | Frisco Elite Plumbing</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact Frisco Elite Plumbing in Frisco, Texas. Send us a message for emergency plumbing, questions, or to schedule service." />
+  <meta name="robots" content="index, follow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body { font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur shadow-sm">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+      <div class="flex items-center justify-between w-full">
+        <a href="index.html" class="flex items-center gap-3">
+          <div class="h-10 w-10 rounded-xl bg-gradient-to-br from-[#15156f] via-[#40463f] to-[#36364e] flex items-center justify-center shadow-lg">
+            <span class="text-white font-extrabold text-lg leading-none">FE</span>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-lg font-bold tracking-tight text-slate-900">Frisco Elite Plumbing</span>
+            <span class="text-xs font-medium text-slate-500 uppercase tracking-[0.18em]">Emergency Specialists</span>
+          </div>
+        </a>
+        <a href="index.html" class="text-slate-700 hover:text-[#15156f] transition-colors duration-300 text-sm font-medium ml-6">
+          ← Back
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="relative overflow-hidden bg-gradient-to-br from-[#15156f] via-[#36364e] to-[#40463f] text-white">
+      <div class="absolute inset-0 opacity-10 pointer-events-none">
+        <div class="absolute -top-24 -left-16 h-64 w-64 rounded-full bg-white/10 blur-3xl"></div>
+        <div class="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-sky-400/10 blur-3xl"></div>
+      </div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 relative z-10">
+        <div class="max-w-3xl">
+          <div class="inline-flex items-center gap-2 rounded-full bg-white/10 border border-white/20 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.22em] mb-5">
+            <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            Get In Touch With Our Team
+          </div>
+          <h1 class="text-4xl md:text-5xl font-bold tracking-tight leading-tight mb-4">
+            Contact Frisco Elite Plumbing
+          </h1>
+          <p class="text-base md:text-lg text-slate-100/90 leading-relaxed max-w-2xl">
+            Have an emergency, need a quote, or just have a question about your plumbing system? Use the form below to reach our team and we’ll respond as quickly as possible.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Business Info -->
+    <section class="py-16 md:py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+          <!-- Contact Form -->
+          <div>
+            <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-2">
+              Send Us a Message
+            </h2>
+            <p class="text-slate-600 mb-8">
+              Fill out the form below and we’ll follow up with you as soon as we can. For urgent issues, please indicate it clearly in your message.
+            </p>
+
+            <form action="https://api.web3forms.com/submit" method="POST" id="contact-form" class="space-y-6">
+              <input type="hidden" name="access_key" value="">
+              <input type="hidden" name="redirect" value="false">
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+              
+              <div>
+                <label for="name" class="block text-sm font-semibold mb-2">Full Name *</label>
+                <input type="text" name="name" id="name" required 
+                  class="w-full px-4 py-3 border border-slate-300 rounded-lg outline-none transition-all focus:ring-2 focus:ring-sky-400 focus:border-sky-400 bg-white"
+                  placeholder="John Doe">
+              </div>
+              
+              <div>
+                <label for="email" class="block text-sm font-semibold mb-2">Email Address *</label>
+                <input type="email" name="email" id="email" required 
+                  class="w-full px-4 py-3 border border-slate-300 rounded-lg outline-none transition-all focus:ring-2 focus:ring-sky-400 focus:border-sky-400 bg-white"
+                  placeholder="john@example.com">
+              </div>
+              
+              <div>
+                <label for="phone" class="block text-sm font-semibold mb-2">Phone Number</label>
+                <input type="tel" name="phone" id="phone" 
+                  class="w-full px-4 py-3 border border-slate-300 rounded-lg outline-none transition-all focus:ring-2 focus:ring-sky-400 focus:border-sky-400 bg-white"
+                  placeholder="+1 (555) 000-0000">
+              </div>
+              
+              <div>
+                <label for="message" class="block text-sm font-semibold mb-2">Message *</label>
+                <textarea name="message" id="message" required rows="5" 
+                  class="w-full px-4 py-3 border border-slate-300 rounded-lg outline-none resize-none transition-all focus:ring-2 focus:ring-sky-400 focus:border-sky-400 bg-white"
+                  placeholder="How can we help you?"></textarea>
+              </div>
+              
+              <button type="submit" id="submit-btn"
+                class="w-full font-semibold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-[1.02] bg-sky-500 text-white shadow-md hover:shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-sky-400">
+                Send Message
+              </button>
+              
+              <div id="form-message" class="mt-4 p-4 rounded-lg hidden bg-green-500 text-white">
+                ✓ Message sent successfully!
+              </div>
+            </form>
+            
+            <script>
+              (function() {
+                const form = document.getElementById('contact-form');
+                const submitBtn = document.getElementById('submit-btn');
+                const messageDiv = document.getElementById('form-message');
+                
+                form.addEventListener('submit', async (e) => {
+                  e.preventDefault();
+                  submitBtn.disabled = true;
+                  submitBtn.textContent = 'Sending...';
+                  
+                  try {
+                    const formData = new FormData(form);
+                    const response = await fetch('https://api.web3forms.com/submit', {
+                      method: 'POST',
+                      body: formData
+                    });
+                    
+                    const result = await response.json();
+                    
+                    if (result.success) {
+                      form.reset();
+                      messageDiv.classList.remove('hidden');
+                      submitBtn.textContent = 'Sent!';
+                      
+                      setTimeout(() => {
+                        messageDiv.classList.add('hidden');
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = 'Send Message';
+                      }, 5000);
+                    } else {
+                      throw new Error('Submission failed');
+                    }
+                  } catch (error) {
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Send Message';
+                    messageDiv.style.background = '#ef4444';
+                    messageDiv.textContent = '✗ Failed to send. Please try again.';
+                    messageDiv.classList.remove('hidden');
+                    
+                    setTimeout(() => {
+                      messageDiv.classList.add('hidden');
+                      messageDiv.style.background = '#22c55e';
+                      messageDiv.textContent = '✓ Message sent successfully!';
+                    }, 5000);
+                  }
+                });
+              })();
+            </script>
+          </div>
+
+          <!-- Business Info & Map -->
+          <div>
+            <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-4">
+              Business Information
+            </h2>
+            <div class="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-8 shadow-sm">
+              <h3 class="text-lg font-semibold text-slate-900 mb-3">
+                Frisco Elite Plumbing
+              </h3>
+              <div class="space-y-3 text-sm text-slate-700">
+                <div>
+                  <p class="font-semibold text-slate-800 mb-1">Address</p>
+                  <p>9</p>
+                  <p>Frisco, Texas, 75035</p>
+                  <p>United States</p>
+                </div>
+                <div>
+                  <p class="font-semibold text-slate-800 mb-1">Phone</p>
+                  <p class="text-slate-500">Not provided</p>
+                </div>
+                <div>
+                  <p class="font-semibold text-slate-800 mb-1">Email</p>
+                  <a href="mailto:john@johnebennett.com" class="text-sky-700 hover:text-sky-900 underline decoration-sky-300">
+                    john@johnebennett.com
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full h-64 md:h-80 rounded-lg overflow-hidden shadow-lg">
+              <iframe 
+                width="100%" 
+                height="100%" 
+                frameborder="0" 
+                scrolling="no" 
+                marginheight="0" 
+                marginwidth="0" 
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-180%2C-90%2C180%2C90&amp;layer=mapnik"
+                style="border: 1px solid #ccc;"
+                loading="lazy"
+                title="Business Location Map"
+              ></iframe>
+            </div>
+            <script>
+              // Geocode address and update map
+              (function() {
+                const address = "9, Frisco, Texas, 75035, United States";
+                const iframe = document.querySelector('iframe[title="Business Location Map"]');
+                
+                fetch('https://nominatim.openstreetmap.org/search?format=json&q=' + encodeURIComponent(address))
+                  .then(response => response.json())
+                  .then(data => {
+                    if (data && data.length > 0) {
+                      const lat = parseFloat(data[0].lat);
+                      const lon = parseFloat(data[0].lon);
+                      const bbox = (lon - 0.01) + '%2C' + (lat - 0.01) + '%2C' + (lon + 0.01) + '%2C' + (lat + 0.01);
+                      const marker = lat + '%2C' + lon;
+                      iframe.src = 'https://www.openstreetmap.org/export/embed.html?bbox=' + bbox + '&layer=mapnik&marker=' + marker;
+                    }
+                  })
+                  .catch(err => console.log('Map geocoding error:', err));
+              })();
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-10">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+        <p class="text-sm text-slate-500">
+          &copy; <span id="year"></span> Frisco Elite Plumbing. All rights reserved.
+        </p>
+        <div class="flex flex-wrap items-center gap-4 text-xs text-slate-400">
+          <span class="inline-flex items-center gap-1">
+            <i class="fa-solid fa-shield-halved text-slate-400"></i>
+            Licensed &amp; Insured in Texas
+          </span>
+          <span class="inline-flex items-center gap-1">
+            <i class="fa-solid fa-circle-exclamation text-slate-400"></i>
+            24/7 Emergency Service
+          </span>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
